@@ -49,7 +49,28 @@ header {
 }
 
 .nav li {
-    background-color: aliceblue;
-    padding: 10px;
+    background-color: rgb(24, 23, 23);
+    padding: 5px 2em;
+    font-size: 1.1em;
     border-radius: 30px;
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav li::after {
+    position: absolute;
+    content: "";
+    height: 110%;
+    width: 106%;
+    border-radius: 30px;
+    background: linear-gradient(90deg ,rgb(104, 26, 250) , rgb(15, 15, 255) ,rgb(233, 12, 233));
+    z-index: -1;
+}
+
+.nav li:hover {
+    z-index: 0;
+    box-shadow: 40px 0 100px rgb(163, 163, 163) , -40px 0 100px rgb(160, 160, 160);
 }
