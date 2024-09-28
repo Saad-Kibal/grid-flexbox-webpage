@@ -116,6 +116,8 @@ input[id="email"] ,input[id="password"] {
     grid-template-columns: 60px 1fr;
     gap: 50px;
     place-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
 }
 
 .desc {
