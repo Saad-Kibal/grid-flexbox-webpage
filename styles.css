@@ -33,6 +33,7 @@ header {
     z-index: 1000;
     align-self: flex-start;
     position: fixed;
+    color:white;
 }
 
 header img {
