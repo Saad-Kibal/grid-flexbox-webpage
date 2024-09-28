@@ -43,7 +43,7 @@ header img {
 
 header .icon {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     font-family: "Bebas Neue" , sans-serif;
     place-self: center;
 }
@@ -54,6 +54,7 @@ nav ul {
     gap: 30px;
     list-style: none;
     font-size: 20px;
+    color:white;
 }
 a {
     text-decoration: none;
