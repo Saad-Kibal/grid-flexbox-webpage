@@ -3,27 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal Land <v2 class="0"></v2></title>
+    <title>Coffee shop</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-           <div class="logo-side">
-                 <img src="./images/icon.png" alt="icon">
-                 <h1><span class="blue">CJ </span><span class="red"> GAMING</span></h1>
-           </div>
-           <ul class="nav">
-            <li>Home</li>
-            <li>Services</li>
-            <li>Achievments</li>
-            <li>Contact</li>
-           </ul>
+    <header id="header">
+        <div class="icon">
+           <h1>My coffee Store</h1>
+           <img id="header-img" src="https://cdn-icons-png.flaticon.com/256/5497/5497772.png" alt="coffee icon">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Who are we</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+              <h1>Your daily dose of apreciation</h1>
+              <p>Discover the perfect cup. here in my non-existance coffee shop</p>
+              <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" name="email" placeholder="Enter your Email">
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+                <input type="submit" name="submit" id="submit" value="Join Us">
+              </form>
+            </div>
+            <iframe id="video" src="https://www.youtube.com/embed/_bNbada12iM" title="Coffee shop promo video | Sony a7III with Sigma 24-70mm f2.8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="features">
+            <div class="grid">
+                <div class="i"><i class="fa fa-coffee"></i></div>
+                <div class="desc">
+                   <h3>Brewed to perfection</h3>
+                   <p>Our expertly roasted beans are sourced from the finest regions around the world. Every cup is a masterpiece, crafted with passion and precision.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="i"><i class="fa fa-heart"></i></div>
+                <div class="desc">
+                   <h3>More than just coffee</h3>
+                   <p>Indulge in our delicious pastries, sandwiches, and other delectable treats to complement your coffee experience</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="i"><i class="fa fa-thumbs-up"></i></div>
+                <div class="desc">
+                   <h3>A cozy atmosphere</h3>
+                   <p>. Escape the hustle and bustle and unwind in our inviting space. Whether you're working, meeting friends, or simply seeking a moment of tranquility, we've got you covered.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="i"><i class="fa-solid fa-users"></i></div>
+                <div class="desc">
+                   <h3>Join our community</h3>
+                   <p>Become a member of our coffee club and enjoy exclusive perks, discounts, and special offers</p>
+                </div>
+            </div>
+        </section>
+        <section id="pricing">
+            <div class="cappuccino product">
+                <h4>Cappuccino</h4>
+                <p>20 Dirhams</p>
+                <img src="https://recettes.vedrenne.fr/1194-large_default/caramel-flavoured-cappuccino.jpg" alt="cappuccino">
+                <button>BUY</button>
+            </div>
+            <div class="Atay product">
+                <h4>Traditional tea</h4>
+                <p>3 Dirhams</p>
+                <img src="https://www.dualit.com/cdn/shop/articles/13046-moroccan-mint-tea_48bdde75-91aa-431f-b094-b7355c9631c8.jpg?v=1685549955" alt="Traditional tea">
+                <button>BUY</button>
+            </div>
+            <div class="late product">
+                <h4>café au lait</h4>
+                <p>10 Dirhams</p>
+                <img src="https://fatapplesrestaurant.com/cdn/shop/products/latte_7138a6eb-c1a1-4fe2-b103-7af287b6ed06_600x.jpg?v=1650815687" alt="café de late">
+                <button>BUY</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Made by me</p>
+    </footer>
 </body>
 </html>
